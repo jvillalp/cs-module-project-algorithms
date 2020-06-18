@@ -8,6 +8,17 @@ For example, for a jar of cookies with `n = 3` (the jar has 3 cookies inside it)
  2. He can eat 1 cookie, then 2 cookies 
  3. He can eat 2 cookies, then 1 cookie
  4. He can eat 3 cookies all at once. 
+ 
+ 1. He can eat 1 cookie at a time 4 times
+ 2. He can eat 1 cookie, then 3 cookies
+ 3. He can eat 2 cookies, then 2 cookie
+ 4. He can eat 3 cookies, the 1 cookie
+ 5. He can eat 4 cookies all at once. 
+ 6. He can eat 1 cookie, 2 cookies, then 1 cookie.
+ 7. He can eat 2 cookies, 1 cookie, then 1 cookie.
+ 8. He can eat 1 cookie, 1 cookie, then 2 cookies.
+ 
+
 
 Thus, `eating_cookies(3)` should return an answer of 4.
 
