@@ -4,6 +4,8 @@ Returns: a List of integers
 '''
 def moving_zeroes(arr):
     # Your code here
+    #pointers?
+    #left = 0 and right is len of arr
     left,right = 0,len(arr)-1
     while left < right:
         if arr[left] == 0:
@@ -16,6 +18,12 @@ def moving_zeroes(arr):
                 right -= 1
             left += 1
     return arr
+
+    # for i in range(len(arr)):
+    #     x = arr[i]
+
+    #     if x != 0:
+    #         arr = [x] + arr[:i] + arr[i +1:]
     
 if __name__ == '__main__':
     # Use the main function here to test out your implementation
